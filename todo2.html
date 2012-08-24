@@ -1,0 +1,51 @@
+<html>
+<head>
+
+	<title>My ToDo List</title>
+	
+	<!-- Getting the jQuery minified source from Google -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+	<!-- External Stylesheet -->
+	<link rel=stylesheet href="style.css" type="text/css" media=screen>	
+	
+	<!-- Google Web Font -->
+	<link href='http://fonts.googleapis.com/css?family=Kreon' rel='stylesheet' type='text/css'>
+
+	<script type = "text/javascript">
+	var len = 1;
+	$(document).ready(function(){
+		
+		//first row
+		$("<li>", {id: "task", class:0}).appendTo("#taskList");
+
+	    //Add KeyUp even listener
+		$("#taskText").keyup(function(event){
+    	
+    	  	//Keycode 13 - Detects "Enter" key
+			if(event.keyCode == 13) {
+				console.log("Enter key was pressed!");
+			}
+		});
+	});
+	</script>
+</head>
+
+<body>
+<div id = "outer-wrapper">
+
+	<div id = "workspace">
+		<div id = "tasks">
+			<ul id = "taskList">
+				<li>
+					<div id = "newTask">
+						<input type = "text" id = "taskText" />
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
