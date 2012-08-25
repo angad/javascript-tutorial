@@ -1,6 +1,7 @@
 /*
  * JavaScript Workshop hands on
- * code 
+ * code. Use with js_workshop.html
+ * Execute this in the JS Console
  */
 
 //Change text
