@@ -1,5 +1,6 @@
 	body {
-		background:url(bg.png) repeat center;
+		/*background:url(bg.png) repeat center;*/
+		background: #333333;
 	}
 
 	#outer-wrapper {
@@ -12,7 +13,7 @@
 		border-color:#ffffff;
 		-moz-border-radius:5px; /* Firefox */
 		border-radius:5px;
-		background:#FFFFFF;
+		background:#B4B4B4;
 		font-family: 'Kreon', serif;
 	}
 
